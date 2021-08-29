@@ -1,0 +1,74 @@
+input {
+    width: 80%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 4px;
+    border-bottom:2px gray;
+    background-color: #cedad5;
+    color: white;
+
+
+    
+}
+.button{
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 8px 0px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.add-user{
+    background-color: rgb(111, 209, 111);
+    grid-column-start: 2;
+    margin-left: 1%;
+
+    
+
+    
+}
+.updating-user{
+    background-color: rgba(15, 15, 134, 0.192);
+    margin-left: 1%;
+    
+}
+.delete-user{
+    background-color: rgb(233, 61, 61);
+    margin-left: 1%;
+    
+}
+.column{
+    float: left;
+    width: 30%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    display: block;
+    margin: 1px;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.radio{
+    text-align:center;
+    display: inline;
+}
+.botton{
+    margin-left: 35%;
+    width: 30%;
+    font-size: 20px;
+}
+.botton:hover{
+    cursor:pointer;
+}

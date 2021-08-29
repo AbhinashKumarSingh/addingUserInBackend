@@ -1,0 +1,4 @@
+CREATE DATABASE login
+CREATE TABLE NAME emp(EmpId int NOT NULL,fname varchar(50) NOT NULL,mname varchar(50) NOT NULL,
+lname varchar(50) NOT NULL, DOB date NOT NULL, gender varchar(1) NOT NULL,
+basicSalary int NOT NULL,allowance int NOT NULL,deduction int NOT NULL,netSalary int NOT NULL, PRIMARY KEY (EmpId)

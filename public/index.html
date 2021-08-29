@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form" style="display: flex;">
+      
+      <div class="add-user">
+      <h1>Creating New user</h1>
+    <form action="add" method="POST">
+        <div class="form-group">
+          
+             <input type="text" class="form-control" id="first-name"  placeholder="Enter First Name" name="fname">
+             <input type="text" class="form-control" id="first-name"  placeholder="Enter Middle Name" name="mname">
+            <input type="text" class="form-control" id="first-name"  placeholder="Enter Last Name" name="lname">
+          </div>
+          <div>
+                <label for="start">Date of Birth</label>
+                <input type="date" id="start"
+                 value="2018-07-22"
+                 min="1950-01-01" name="dob">
+          </div>
+          
+    <table>
+      <tr>
+        <td>
+              <label>Male</label>
+                <input type="radio" 
+                name="gender" 
+                 value="M">
+                 </td><td>
+            <label>Female</label>
+            <input type="radio"    name="gender" value="F">
+        </td>
+          </tr>
+    </table>
+          
+          <div>
+            <label for="salary">Salary</label><br>
+            <input type="number" class="form-control" id="basic"  placeholder="Enter Basic Salary" name="basicSalary">
+            <input type="number" class="form-control" id="allowance"  placeholder="Enter Allowance" name="allowance">
+            <input type="number" class="form-control" id="deduction"  placeholder="Enter Deduction" name="deduction">
+          </div>
+               <button type="submit" class="botton">Submit</button>
+             </form>
+            
+          </div>
+             <br><br>
+
+
+             <div class="updating-user">
+              
+               <form action="update" method="POST">
+                 <h1>Form for updating User</h1>        
+                  <input type="text" class="form-control" id="first-name"  placeholder="Enter user id" name="id">       
+                    <div class="form-group"> 
+                      <input type="text" class="form-control" id="first-name"  placeholder="Enter First Name" name="fname">
+                      <input type="text" class="form-control" id="first-name"  placeholder="Enter Middle Name" name="mname">
+                      <input type="text" class="form-control" id="first-name"  placeholder="Enter Last Name" name="lname">
+                    </div>
+                    <div>
+                       <label for="start">Date of Birth</label>
+                       <input type="date" id="start" 
+                       value="2018-07-22"
+                       min="1950-01-01" name="dob">      
+                    </div>
+                    <table>
+                      <tr>
+                        <td>
+                              <label>Male</label>
+                                <input type="radio" 
+                                name="gender" 
+                                 value="M">
+                                 </td><td>
+                            <label>Female</label>
+                            <input type="radio"    name="gender" value="F">
+                        </td>
+                          </tr>
+                    </table>
+               <div>
+                   <label for="salary">Salary</label><br>
+                  <input type="number" class="form-control" id="basic"  placeholder="Enter Basic Salary" name="basicSalary">
+                  <input type="number" class="form-control" id="allowance"  placeholder="Enter Allowance" name="allowance">
+                  <input type="number" class="form-control" id="deduction"  placeholder="Enter Deduction" name="deduction">
+               </div>
+             <button type="submit" class="botton">Submit</button>
+          </form>
+        </div>
+        <br><br>
+        <div class="delete-user">
+          
+           <form method="POST" action="delete">
+             <h1>Form to delete user</h1>
+              <input type="text" class="form-control" id="first-name"  placeholder="Enter user id" name="id">
+              <button type="submit" class="botton">Submit</button>
+          </form>
+        
+        </div>
+        </div>
+          </div>
+  </body>
+</html>
